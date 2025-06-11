@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="85%"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="#1F6BB8"/>
+
+    <TextView
+        android:id="@+id/correctAnswersText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8/10 Correct"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excellent! Great job!"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/retakeBtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_back_green20"
+        android:text="Retake Quiz"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/homeBtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_back_white_stroke2_10"
+        android:text="Go to Home"
+        android:textColor="@color/black"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
