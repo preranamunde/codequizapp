@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Quiz</string>
+    <string name="select_category">Select Category</string>
+    <string name="choose_learning_path">Choose your learning path</string>
+
+    <!-- Notes Section -->
+    <string name="notes_title">Notes</string>
+    <string name="notes_subtitle">Study materials and references</string>
+
+    <!-- Quiz Section -->
+    <string name="quiz_title">Quiz</string>
+    <string name="quiz_subtitle">Test your knowledge</string>
+
+    <!-- Tutorial Section -->
+    <string name="tutorial_title">Tutorial</string>
+    <string name="tutorial_subtitle">Interactive learning guide</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="category_icon_desc">Category icon</string>
+    <string name="notes_icon_desc">Notes icon</string>
+    <string name="quiz_icon_desc">Quiz icon</string>
+    <string name="tutorial_icon_desc">Tutorial icon</string>
+    <string name="arrow_desc">Navigate forward</string>
+    <string name="selected_topic_name">Selected Topic Name</string>
+    <string name="back_icon_desc">Back icon</string>
+    <string name="timer_desc">Timer showing remaining time</string>
+    <string name="question_count_desc">Current question count</string>
+    <string name="question_text_desc">Displays the current quiz question</string>
+    <string name="next_button">Next</string>
+    <string name="next_button_desc">Go to the next question</string>
 </resources>
